@@ -49,8 +49,8 @@ public class StringDemo {
         System.out.println("Sanath".equals("sanath"));
         System.out.println("Sanath".equalsIgnoreCase("sanath"));
 
-        String[] strArr2 = {"A", "B"};
-        String x = String.join("  ", "My", "name", "is", "Niraj", "Pandey");
+        String[] strArr2 = new String[]{"A", "B", "C", "D", "E"};
+        String x = String.join("-", strArr2);
         System.out.println("value of x is : " + x);
     }
 }
